@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <link href='https://mirrors.sustech.edu.cn/cdnjs/ajax/libs/Primer/21.0.7/primer.css' rel='stylesheet' />
-    
+    <script src='https://blog.meekdai.com/Gmeek/plugins/GmeekVercount.js'></script>
     <link rel="icon" href="https://p.929255.xyz/i/2025/09/11/w6s5s7-jq0t.jpg"><script>
         let theme = localStorage.getItem("meek_theme") || "light";
         document.documentElement.setAttribute("data-color-mode", theme);
@@ -64,7 +64,11 @@ body{box-sizing: border-box;min-width: 200px;max-width: 900px;margin: 20px auto;
         </svg>
     </a>
     
-    
+    <a href="https://jazzao.github.io/about.html" class="btn btn-invisible circle" title="about">
+        <svg class="octicon" width="16" height="16" >
+            <path id="about" fill-rule="evenodd"></path>
+        </svg>
+    </a>
     <a href="https://jazzao.github.io/rss.xml" target="_blank" id="buttonRSS" class="btn btn-invisible circle" title="RSS">
         <svg class="octicon" width="16" height="16" >
             <path id="pathRSS" fill-rule="evenodd"></path>
@@ -80,7 +84,18 @@ body{box-sizing: border-box;min-width: 200px;max-width: 900px;margin: 20px auto;
     <div id="content">
 <div style="margin-bottom: 16px;">我叫早安，世界就是一个巨大的猫爬架</div>
 <nav class="SideNav border">
-<a class="SideNav-item d-flex flex-items-center flex-justify-between" href="post/zao-an-ce-shi.html">
+<a class="SideNav-item d-flex flex-items-center flex-justify-between" href="post/ce-shi-2.html">
+    <div class="d-flex flex-items-center">
+        <svg class="SideNav-icon octicon" style="witdh:16px;height:16px"><path class="svgTop0" d=""></path>
+        </svg>
+        <span class="listTitle">测试2</span>
+    </div>
+    <div class="listLabels">
+        
+        <span class="Label LabelName" style="background-color:#7057ff"><object><a style="color:#fff" href="tag.html#good first issue">good first issue</a></object></span>
+        <span class="Label LabelTime" style="background-color:#0969da">2025-09-11</span>
+    </div>
+</a><a class="SideNav-item d-flex flex-items-center flex-justify-between" href="post/zao-an-ce-shi.html">
     <div class="d-flex flex-items-center">
         <svg class="SideNav-icon octicon" style="witdh:16px;height:16px"><path class="svgTop0" d=""></path>
         </svg>
@@ -101,6 +116,17 @@ body{box-sizing: border-box;min-width: 200px;max-width: 900px;margin: 20px auto;
         
         <span class="Label LabelName" style="background-color:#0075ca"><object><a style="color:#fff" href="tag.html#documentation">documentation</a></object></span>
         <span class="Label LabelTime" style="background-color:#bc4c00">2024-09-11</span>
+    </div>
+</a><a class="SideNav-item d-flex flex-items-center flex-justify-between" href="post/er-hao-wei.html">
+    <div class="d-flex flex-items-center">
+        <svg class="SideNav-icon octicon" style="witdh:16px;height:16px"><path class="svgTop0" d=""></path>
+        </svg>
+        <span class="listTitle">二号位</span>
+    </div>
+    <div class="listLabels">
+        
+        <span class="Label LabelName" style="background-color:#008672"><object><a style="color:#fff" href="tag.html#help wanted">help wanted</a></object></span>
+        <span class="Label LabelTime" style="background-color:#A333D0">2023-09-11</span>
     </div>
 </a>
 </nav>
@@ -169,7 +195,7 @@ for(var i=0;i<iconPost.length;i++){
 
 
 
-
+document.getElementById("about").setAttribute("d",value=IconList["about"]);
 </script>
 
 
