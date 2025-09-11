@@ -12,7 +12,6 @@
     "themeMode":"manual",
     "urlMode":"pinyin",
     "style":"",
-    "script":"",
     "head":"",
     "allHead":"<style>body[data-ui-pending] #content {opacity:0;transition:opacity 0.3s ease;}</style><script>document.documentElement.setAttribute('data-ui-pending','true');</script><link rel='stylesheet' href='https://code.buxiantang.top/assets/GmeekBaseTheme.css'><script src='https://code.buxiantang.top/assets/GmeekCustomizeCss.js' defer></script>",
     "indexStyle":"",
@@ -23,6 +22,5 @@
     "ogImage":"https://cdn.jsdelivr.net/gh/Meekdai/meekdai.github.io/logo64.jpg",
     "primerCSS":"<link href='https://mirrors.sustech.edu.cn/cdnjs/ajax/libs/Primer/21.0.7/primer.css' rel='stylesheet' />",
     "needComment":1,
-    "allHead":"<script src='https://blog.meekdai.com/Gmeek/plugins/GmeekVercount.js'></script>",
-    "script":"<script src='https://blog.meekdai.com/Gmeek/plugins/articletoc.js'></script>"
+    "script":"<script src='https://code.buxiantang.top/assets/GmeekCustomizeCss.js'></script><script src='https://blog.meekdai.com/Gmeek/plugins/lightbox.js'></script><script src='https://blog.meekdai.com/Gmeek/plugins/articletoc.js'></script><script src='https://blog.meekdai.com/Gmeek/plugins/GmeekVercount.js'></script>"
 }
